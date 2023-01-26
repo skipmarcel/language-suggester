@@ -1,0 +1,31 @@
+body {
+  background-color: rgba(0, 20, 100, 0.3);
+}
+
+h1 {
+  font-family: "Lobster";
+  color: antiquewhite;
+  font-size: 40px;
+  margin: 15px auto 15px;
+}
+
+h2 {
+  font-family: "Crimson Pro", sans-serif;
+  font-size: 22px;
+  margin: auto;
+}
+
+#heading-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+#question-box {
+  width: 400px;
+  height: 600px;
+  border-radius: 6px;
+  margin: 15px auto;
+  background-color: rgba(0, 20, 100, 0.4);
+}
