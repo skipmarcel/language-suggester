@@ -15,6 +15,22 @@ h2 {
   margin: auto;
 }
 
+h4 {
+  font-family: "Crimson Pro", sans-serif;
+  margin: 14px 14px 0 14px;
+  color: antiquewhite;
+  font-size: 22px;
+}
+
+p {
+  font-size: 20px;
+}
+
+label {
+  font-size: 20;
+  color: rgba(0, 20, 100, 1);
+}
+
 #heading-flex-container {
   display: flex;
   flex-direction: column;
@@ -28,4 +44,11 @@ h2 {
   border-radius: 6px;
   margin: 15px auto;
   background-color: rgba(0, 20, 100, 0.4);
+}
+
+form {
+  margin: 10px;
+  font-family: "Crimson Pro", sans-serif;
+  margin: 14px;
+  color: antiquewhite;
 }
