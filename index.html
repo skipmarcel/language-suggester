@@ -4,22 +4,19 @@
   <head>
     <meta charset="utf-8" />
     <script src="js/scriptsjs"></script>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link href="css/styles.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Crimson+Pro"
     />
     <title>Programming Language Suggester</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
   </head>
   <body>
     <div id="heading-flex-container">
       <h1>Programming Language Suggester</h1>
       <h2>A simple guide to help you decide</h2>
       <div id="question-box">
-        <h4>We'll need some info from you to come up with an answer:</h4>
+        <h4>We need some info to come up with an answer:</h4>
         <br />
         <form>
           <p>
@@ -30,12 +27,9 @@
           </p>
           <input type="radio" id="mnms" name="mnms" />
           <label id="mnms-label">M&Ms</label>
-
           <br />
           <input type="radio" id="potato-chips" name="potato-chips" />
           <label id="potato-chips-label">Potato Chips</label>
-
-          <div class="space"></div>
           <p>
             <strong
               >You can either swim with dolphins or watch them from a boat.
@@ -44,10 +38,38 @@
           </p>
           <input type="radio" id="dolphins" name="dolphins" />
           <label id="dolphins-label">Swim with dolphins</label>
-
           <br />
+
           <input type="radio" id="boat" name="boat" />
-          <label id="boat-label">Potato Chips</label>
+          <label id="boat-label">Watch from the boat</label>
+          <p>
+            <strong
+              >You have two choices for your next car. Which one will you
+              buy?</strong
+            >
+          </p>
+          <input type="radio" id="nova" name="nova" />
+          <label id="nova-label">1973 Nova SS</label>
+          <br />
+
+          <input type="radio" id="vw" name="vw" />
+          <label id="vw-label">1973 VW Thing</label>
+          <br />
+          <button type="submit" class="submit-button">
+            SUBMIT YOUR ANSWERS
+          </button>
+          <h4 class="we-suggest">We suggest you start with:</h4>
+          <div id="languages">
+            <div id="js-container">
+              <h1 id="javaScript-screen">javaScript</h1>
+            </div>
+
+            <div id="python-container"><h1 id="python-screen">python</h1></div>
+
+            <div id="react-container"><h1 id="react-screen">react</h1></div>
+
+            <div id="ruby-container"><h1 id="ruby-screen">ruby</h1></div>
+          </div>
         </form>
       </div>
     </div>

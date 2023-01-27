@@ -4,9 +4,10 @@ body {
 
 h1 {
   font-family: "Lobster";
-  color: antiquewhite;
+  color: #faebd7;
   font-size: 40px;
   margin: 15px auto 15px;
+  text-align: center;
 }
 
 h2 {
@@ -17,7 +18,7 @@ h2 {
 
 h4 {
   font-family: "Crimson Pro", sans-serif;
-  margin: 14px 14px 0 14px;
+  margin: auto;
   color: antiquewhite;
   font-size: 22px;
 }
@@ -40,7 +41,7 @@ label {
 
 #question-box {
   width: 400px;
-  height: 600px;
+  height: 680px;
   border-radius: 6px;
   margin: 15px auto;
   background-color: rgba(0, 20, 100, 0.4);
@@ -51,4 +52,77 @@ form {
   font-family: "Crimson Pro", sans-serif;
   margin: 14px;
   color: antiquewhite;
+}
+
+.submit-button {
+  font-family: "Crimson Pro", sans-serif;
+  font-size: medium;
+  margin-top: 20px;
+  margin-left: 6px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  color: rgba(0, 20, 100, 0.6);
+}
+
+.we-suggest {
+  margin-left: 0;
+}
+
+#javaScript-screen {
+  font-family: "Lobster";
+  color: rgba(0, 20, 20, 0.2);
+  font-size: 40px;
+  margin: auto;
+}
+
+#react-screen {
+  font-family: "Lobster";
+  color: rgba(0, 20, 20, 0.2);
+  font-size: 40px;
+  margin: auto;
+}
+
+#ruby-screen {
+  font-family: "Lobster";
+  color: rgba(0, 20, 20, 0.2);
+  font-size: 40px;
+  margin: auto;
+}
+
+#python-screen {
+  font-family: "Lobster";
+  color: rgba(0, 20, 20, 0.2);
+  font-size: 40px;
+  margin: auto;
+}
+
+#languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#js-container {
+  background-color: rgba(0, 20, 100, 0.3);
+  border-radius: 10px;
+  width: 360px;
+  height: 60px;
+  margin: auto;
+}
+
+#python-container {
+  background-color: rgba(0, 20, 100, 0.3);
+  border-radius: 10px;
+}
+
+#react-container {
+  background-color: rgba(0, 20, 100, 0.3);
+  border-radius: 10px;
+}
+
+#ruby-container {
+  background-color: rgba(0, 20, 100, 0.3);
+  border-radius: 10px;
 }
