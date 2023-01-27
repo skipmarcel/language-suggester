@@ -6,7 +6,7 @@ h1 {
   font-family: "Lobster";
   color: #faebd7;
   font-size: 40px;
-  margin: 15px auto 15px;
+  margin: auto;
   text-align: center;
 }
 
@@ -60,7 +60,7 @@ form {
   color: antiquewhite;
 }
 
-.submit-button {
+button {
   font-family: "Crimson Pro", sans-serif;
   font-size: medium;
   margin-top: 20px;
@@ -69,38 +69,49 @@ form {
   border: none;
   text-decoration: none;
   color: rgba(0, 20, 100, 0.6);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #93d7f4;
+  color: white;
+}
+
+.button:active {
+  transform: translateY(4px);
 }
 
 .we-suggest {
   margin-top: 8px;
-  margin-left: 8px;
+  margin-left: 15px;
   margin-bottom: 10px;
 }
 
-#javaScript-screen {
+.javaScript-screen {
   font-family: "Lobster";
-  color: rgba(0, 20, 20, 0.2);
+  color: rgba(0, 20, 20, 0.1);
   font-size: 40px;
   margin: auto;
 }
 
-#react-screen {
+.react-screen {
   font-family: "Lobster";
-  color: rgba(0, 20, 20, 0.2);
+  color: rgba(0, 20, 20, 0.1);
   font-size: 40px;
   margin: auto;
 }
 
-#ruby-screen {
+.ruby-screen {
   font-family: "Lobster";
-  color: rgba(0, 20, 20, 0.2);
+  color: rgba(0, 20, 20, 0.1);
   font-size: 40px;
   margin: auto;
 }
 
-#python-screen {
+.python-screen {
   font-family: "Lobster";
-  color: rgba(0, 20, 20, 0.2);
+  color: rgba(0, 20, 20, 0.1);
   font-size: 40px;
   margin: auto;
 }
@@ -117,7 +128,7 @@ form {
   border-radius: 10px;
   width: 360px;
   height: 60px;
-  margin: 1px auto 1px auto;
+  margin: 2px auto 2px auto;
 }
 
 #python-container {
@@ -125,7 +136,7 @@ form {
   border-radius: 10px;
   width: 360px;
   height: 60px;
-  margin: 1px auto 1px auto;
+  margin: 2px auto 2px auto;
 }
 
 #react-container {
@@ -133,7 +144,7 @@ form {
   border-radius: 10px;
   width: 360px;
   height: 60px;
-  margin: 1px auto 1px auto;
+  margin: 2px auto 2px auto;
 }
 
 #ruby-container {
@@ -141,5 +152,5 @@ form {
   border-radius: 10px;
   width: 360px;
   height: 60px;
-  margin: 1px auto 1px auto;
+  margin: 2px auto 2px auto;
 }
