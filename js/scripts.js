@@ -21,7 +21,10 @@ function rubyRemoveScreen() {
 
 document.querySelector("form").onsubmit = function (event) {
   let vw = document.getElementById("vw");
-  rubyRemoveScreen();
+  // console.log(vw.checked);
+  if (vw.checked == true) {
+    rubyRemoveScreen();
+  }
   event.preventDefault();
 };
 // };
