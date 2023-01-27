@@ -23,6 +23,12 @@ h4 {
   font-size: 22px;
 }
 
+#need-info {
+  margin-top: 10px;
+  margin-left: 15px;
+  color: white;
+}
+
 p {
   font-size: 20px;
 }
@@ -41,7 +47,7 @@ label {
 
 #question-box {
   width: 400px;
-  height: 680px;
+  height: 780px;
   border-radius: 6px;
   margin: 15px auto;
   background-color: rgba(0, 20, 100, 0.4);
@@ -66,7 +72,9 @@ form {
 }
 
 .we-suggest {
-  margin-left: 0;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-bottom: 10px;
 }
 
 #javaScript-screen {
@@ -109,20 +117,29 @@ form {
   border-radius: 10px;
   width: 360px;
   height: 60px;
-  margin: auto;
+  margin: 1px auto 1px auto;
 }
 
 #python-container {
   background-color: rgba(0, 20, 100, 0.3);
   border-radius: 10px;
+  width: 360px;
+  height: 60px;
+  margin: 1px auto 1px auto;
 }
 
 #react-container {
   background-color: rgba(0, 20, 100, 0.3);
   border-radius: 10px;
+  width: 360px;
+  height: 60px;
+  margin: 1px auto 1px auto;
 }
 
 #ruby-container {
   background-color: rgba(0, 20, 100, 0.3);
   border-radius: 10px;
+  width: 360px;
+  height: 60px;
+  margin: 1px auto 1px auto;
 }
