@@ -3,7 +3,7 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <script src="js/scripts.js"></script>
+
     <link href="css/styles.css" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -17,17 +17,18 @@
       <h2>A simple guide to help you decide</h2>
       <div id="question-box">
         <h4 id="need-info">We need some info to come up with an answer:</h4>
-        <form>
+        <!-- form starts here -->
+        <form id="form-submit">
           <p>
             <strong
               >There are two heaping bowls in front of you. Which one do you
               choose?</strong
             >
           </p>
-          <input type="radio" id="mnms" name="mnms" />
+          <input type="checkbox" id="mnms" name="mnms" />
           <label id="mnms-label">M&Ms</label>
           <br />
-          <input type="radio" id="potato-chips" name="potato-chips" />
+          <input type="checkbox" id="potato-chips" name="potato-chips" />
           <label id="potato-chips-label">Potato Chips</label>
           <p>
             <strong
@@ -35,11 +36,11 @@
               Which one do you choose?</strong
             >
           </p>
-          <input type="radio" id="dolphins" name="dolphins" />
+          <input type="checkbox" id="dolphins" name="dolphins" />
           <label id="dolphins-label">Swim with dolphins</label>
           <br />
 
-          <input type="radio" id="boat" name="boat" />
+          <input type="checkbox" id="boat" name="boat" />
           <label id="boat-label">Watch from the boat</label>
           <p>
             <strong
@@ -47,14 +48,15 @@
               buy?</strong
             >
           </p>
-          <input type="radio" id="nova" name="nova" />
+          <input type="checkbox" id="nova" name="nova" />
           <label id="nova-label">1973 Nova SS</label>
           <br />
 
-          <input type="radio" id="vw" name="vw" />
+          <input type="checkbox" id="vw" name="vw" />
           <label id="vw-label">1973 VW Thing</label>
           <br />
-          <button type="submit">SUBMIT YOUR ANSWERS</button>
+          <!-- here is the submit button -->
+          <button type="submit" id="submit">SUBMIT YOUR ANSWERS</button>
         </form>
         <h4 class="we-suggest">We suggest you start with:</h4>
         <div id="languages">
@@ -75,6 +77,7 @@
           </div>
         </div>
       </div>
+      <script src="js/scripts.js"></script>
     </div>
   </body>
 </html>
