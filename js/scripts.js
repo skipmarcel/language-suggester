@@ -26,6 +26,10 @@ document.querySelector("form").onsubmit = function (event) {
   let dolphins = document.getElementById("dolphins");
   let boat = document.getElementById("boat");
   let nova = document.getElementById("nova");
+  function restForm() {
+    document.getElementById("");
+  }
+
   // console.log(vw.checked);
   if (mnms.checked == true && boat.checked == true && vw.checked == true) {
     rubyRemoveScreen();
@@ -66,6 +70,7 @@ document.querySelector("form").onsubmit = function (event) {
   ) {
     reactRemoveScreen();
   }
+  document.getElementById("form-submit").reset();
   event.preventDefault();
 };
 // };
