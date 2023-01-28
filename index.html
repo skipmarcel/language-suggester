@@ -41,7 +41,7 @@
           <br />
           <input type="radio" id="boat" name="dolphins" />
           <label id="boat-label">Watch from the boat</label>
-          <p>
+          <p id="lastQuestion">
             <strong
               >You have two choices for your next car. Which one will you
               buy?</strong
@@ -58,7 +58,9 @@
           <button onClick="window.location.reload();">RELOAD</button>
           <p id="errorMessage"></p>
         </form>
-        <h4 class="we-suggest">We suggest you start with:</h4>
+        <div id="suggest-wide">
+          <h4 class="we-suggest">We suggest you start with:</h4>
+        </div>
         <div id="languages">
           <div id="js-container">
             <h1 class="javaScript-screen" id="js-id">javaScript</h1>

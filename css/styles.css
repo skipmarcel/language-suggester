@@ -170,3 +170,24 @@ button:hover {
   margin-left: 10px;
   color: red;
 }
+
+@media screen and (max-height: 760px) {
+  #question-box {
+    width: 730px;
+    height: 500px;
+  }
+  #languages {
+    position: fixed;
+    min-width: 290px;
+    top: 400px;
+    right: 160px;
+  }
+  #lastQuestion {
+    max-width: 350px;
+  }
+  #suggest-wide {
+    position: fixed;
+    top: 360px;
+    right: 220px;
+  }
+}
