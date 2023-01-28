@@ -59,6 +59,12 @@ document.querySelector("form").onsubmit = function (event) {
     potatoChips.checked == true
   ) {
     pythonRemoveScreen();
+  } else if (
+    vw.checked == true &&
+    dolphins.checked == true &&
+    potatoChips.checked == true
+  ) {
+    reactRemoveScreen();
   }
   event.preventDefault();
 };
