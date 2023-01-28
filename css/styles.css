@@ -24,7 +24,7 @@ h2 {
 
 h4 {
   font-family: "Crimson Pro", sans-serif;
-  margin: auto;
+  margin: 4 auto auto auto;
   color: rgb(250, 235, 215);
   font-size: 22px;
 }
@@ -53,10 +53,11 @@ label {
 
 #question-box {
   width: 400px;
-  height: 716px;
+  height: 730px;
   border-radius: 6px;
   margin: 15px auto;
   background-color: rgba(0, 20, 100, 0.4);
+  box-shadow: 1px 2px 6px 2px rgba(0, 20, 100, 0.9);
 }
 
 form {
@@ -89,7 +90,7 @@ button:hover {
 }
 
 .we-suggest {
-  margin-top: 8px;
+  margin-top: 0px;
   margin-left: 15px;
   margin-bottom: 10px;
   color: white;
@@ -160,4 +161,12 @@ button:hover {
   width: 360px;
   height: 42px;
   margin: 2px auto 2px auto;
+}
+
+#errorMessage {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  color: red;
 }

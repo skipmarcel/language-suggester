@@ -26,11 +26,11 @@ document.querySelector("form").onsubmit = function (event) {
   let dolphins = document.getElementById("dolphins");
   let boat = document.getElementById("boat");
   let nova = document.getElementById("nova");
+  let radioInput = document.querySelector("input");
   function restForm() {
     document.getElementById("");
   }
 
-  // console.log(vw.checked);
   if (mnms.checked == true && boat.checked == true && vw.checked == true) {
     rubyRemoveScreen();
   } else if (
@@ -69,7 +69,14 @@ document.querySelector("form").onsubmit = function (event) {
     potatoChips.checked == true
   ) {
     reactRemoveScreen();
+  } else if (radioInput.checked == !3) {
+    document.getElementById("errorMessage").innerHTML =
+      "ANSWER ALL THREE QUESTIONS";
   }
+
+  // if (mnms.checked == false || potatoChips.checked == false) {
+  //   document.getElementById("errorMessage").innerHTML = "error";
+  // }
   document.getElementById("form-submit").reset();
   event.preventDefault();
 };
