@@ -2,10 +2,14 @@ body {
   background-color: rgba(0, 20, 100, 0.3);
 }
 
+#head-title {
+  font-size: 42px;
+}
+
 h1 {
   font-family: "Lobster";
   color: #faebd7;
-  font-size: 40px;
+  font-size: 28px;
   margin: auto;
   text-align: center;
   transition: 1.5s;
@@ -15,7 +19,7 @@ h1 {
 h2 {
   font-family: "Crimson Pro", sans-serif;
   font-size: 22px;
-  margin: auto;
+  margin: 10px auto 0px auto;
 }
 
 h4 {
@@ -49,7 +53,7 @@ label {
 
 #question-box {
   width: 400px;
-  height: 780px;
+  height: 716px;
   border-radius: 6px;
   margin: 15px auto;
   background-color: rgba(0, 20, 100, 0.4);
@@ -93,28 +97,28 @@ button:hover {
 .javaScript-screen {
   font-family: "Lobster";
   color: rgba(0, 20, 20, 0.1);
-  font-size: 40px;
+  font-size: 28px;
   margin: auto;
 }
 
 .react-screen {
   font-family: "Lobster";
   color: rgba(0, 20, 20, 0.1);
-  font-size: 40px;
+  font-size: 28px;
   margin: auto;
 }
 
 .ruby-screen {
   font-family: "Lobster";
   color: rgba(0, 20, 20, 0.1);
-  font-size: 40px;
+  font-size: 28px;
   margin: auto;
 }
 
 .python-screen {
   font-family: "Lobster";
   color: rgba(0, 20, 20, 0.1);
-  font-size: 40px;
+  font-size: 28px;
   margin: auto;
 }
 
@@ -129,7 +133,7 @@ button:hover {
   background-color: rgba(0, 20, 100, 0.3);
   border-radius: 10px;
   width: 360px;
-  height: 60px;
+  height: 42px;
   margin: 2px auto 2px auto;
 }
 
@@ -137,7 +141,7 @@ button:hover {
   background-color: rgba(0, 20, 100, 0.3);
   border-radius: 10px;
   width: 360px;
-  height: 60px;
+  height: 42px;
   margin: 2px auto 2px auto;
 }
 
@@ -145,7 +149,7 @@ button:hover {
   background-color: rgba(0, 20, 100, 0.3);
   border-radius: 10px;
   width: 360px;
-  height: 60px;
+  height: 42px;
   margin: 2px auto 2px auto;
 }
 
@@ -153,6 +157,6 @@ button:hover {
   background-color: rgba(0, 20, 100, 0.3);
   border-radius: 10px;
   width: 360px;
-  height: 60px;
+  height: 42px;
   margin: 2px auto 2px auto;
 }
