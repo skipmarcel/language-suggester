@@ -69,7 +69,7 @@ document.querySelector("form").onsubmit = function (event) {
     potatoChips.checked == true
   ) {
     reactRemoveScreen();
-  } else if (radioInput.checked == !3) {
+  } else if (radioInput.checked == 1 || 2) {
     document.getElementById("errorMessage").innerHTML =
       "ANSWER ALL THREE QUESTIONS";
   }
