@@ -1,4 +1,5 @@
 window.onload = function () {
+  // ------REPLACE SCREENS------
   function jsReplaceScreen() {
     let jsId = document.getElementById("js-id");
     jsId.classList.add("javaScript-screen");
@@ -15,7 +16,7 @@ window.onload = function () {
     let rubyId = document.getElementById("ruby-id");
     rubyId.classList.add("ruby-screen");
   }
-
+  // ------REMOVE SCREENS------
   function jsRemoveScreen() {
     let jsId = document.getElementById("js-id");
     jsId.classList.remove("javaScript-screen");
@@ -105,9 +106,6 @@ window.onload = function () {
       rubyReplaceScreen();
       jsReplaceScreen();
       pythonReplaceScreen();
-    } else if (radioInput.checked == 1 || 2) {
-      document.getElementById("errorMessage").innerHTML =
-        "ANSWER ALL THREE QUESTIONS";
     }
 
     document.getElementById("form-submit").reset();

@@ -172,6 +172,10 @@ button:hover {
   color: red;
 }
 
+#errorMessageHidden {
+  dispaly: none;
+}
+
 @media screen and (max-height: 760px) {
   #question-box {
     width: 730px;
